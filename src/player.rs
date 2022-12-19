@@ -68,7 +68,7 @@ impl Person for Player {
         Reply::AskUI
     }
 }
-
+///down here shows that code will replay these values to you as you play
 pub enum Reply {
     Hit,
     Stand,
